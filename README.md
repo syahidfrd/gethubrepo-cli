@@ -6,7 +6,7 @@ Get Github repository from your terminal
 go run main.go --username=github-username
 
 # or with shorthand
-go run main.go --u=github-username
+go run main.go -u=github-username
 ```
 
 ## Distributing your CLI tool
@@ -15,5 +15,5 @@ Install it by running `go get github.com/syahidfrd/gethubrepo-cli`. Then you wil
 gethubrepo --username=github-username
 
 # or with shorthand
-gethubrepo --u=github-username
+gethubrepo -u=github-username
 ```
